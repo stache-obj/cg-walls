@@ -16,8 +16,14 @@ async function fetchWallpapers() {
 
   const data = await res.json();
 
-  // Replace example.com placeholder links from the JSON with real placeholder images
+  // Map new JSON format to internal property names
   _cache = data.map(w => {
+    w.thumbnail = w.thumb_link || w.thumbnail;
+    w.link = w.main_link || w.link;
+    w.category = w.type || w.category;
+    w.download_url = w.main_link || w.download_url;
+
+    // Replace example.com placeholder links from the JSON with real placeholder images
     if (w.thumbnail && w.thumbnail.includes('example.com')) {
       w.thumbnail = `https://picsum.photos/seed/${w.id}/800/800`;
     }
