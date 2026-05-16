@@ -4,13 +4,14 @@
  */
 
 const WALLPAPERS_URL =
-  'https://raw.githubusercontent.com/milanmishrarighter/ht/refs/heads/main/wallpapers.json';
+  'https://raw.githubusercontent.com/stache-obj/cg-walls/main/wallpapers.json';
 
 let _cache = null;
 
 async function fetchWallpapers() {
   if (_cache) return _cache;
-  const res = await fetch(WALLPAPERS_URL);
+  // Append a timestamp to bypass GitHub's raw CDN caching for "always live" updates
+  const res = await fetch(`${WALLPAPERS_URL}?t=${Date.now()}`);
   if (!res.ok) throw new Error(`HTTP ${res.status}: failed to fetch wallpapers`);
 
   const data = await res.json();
