@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Cybernetic Core",
+    "name": "Army",
     "artist": "Nova Designs",
     "artist_portfolio": "https://artstation.com/novadesigns",
     "resolution": "3840x2160",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "name": "Lost Ruins",
+    "name": "Creepy Ocean",
     "artist": "Echo Visuals",
     "artist_portfolio": "https://behance.net/echovisuals",
     "resolution": "1080x2400",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "name": "Liquid Gold",
+    "name": "Deer Water",
     "artist": "Aura Sim",
     "artist_portfolio": "https://instagram.com/aurasim_art",
     "resolution": "3840x3840",
