@@ -49,12 +49,20 @@ function getVisible() {
     walls = walls.filter(w => w.category === _filter || w.category === 'both');
 
   if (_query) {
-    const q = _query.toLowerCase();
-    walls = walls.filter(w =>
-      w.name.toLowerCase().includes(q) ||
-      w.artist.toLowerCase().includes(q) ||
-      (w.tags || []).some(t => t.toLowerCase().includes(q))
-    );
+    const terms = _query.toLowerCase().split(/\s+/).filter(Boolean);
+    walls = walls.filter(w => {
+      // Combine all searchable fields into one big string
+      const searchableText = [
+        w.name,
+        w.artist,
+        w.category || w.type,
+        ...(w.tags || []),
+        ...(w.software || [])
+      ].filter(Boolean).join(' ').toLowerCase();
+
+      // Check if every search term is found somewhere in the combined text
+      return terms.every(term => searchableText.includes(term));
+    });
   }
 
   switch (_sort) {
