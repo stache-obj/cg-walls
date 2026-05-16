@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Cybernetic Core",
+    "artist": "Nova Designs",
+    "artist_portfolio": "https://artstation.com/novadesigns",
+    "resolution": "3840x2160",
+    "main_link": "https://images.unsplash.com/photo-1618331835717-801e976710b2?q=100",
+    "preview_link": "https://images.unsplash.com/photo-1618331835717-801e976710b2?w=1920&q=80",
+    "thumb_link": "https://images.unsplash.com/photo-1618331835717-801e976710b2?w=800&q=80",
+    "software": ["blender", "photoshop"],
+    "tags": ["abstract", "3d", "cyberpunk", "neon", "dark"],
+    "editors_choice": "y",
+    "type": "desktop"
+  },
+  {
+    "id": 2,
+    "name": "Lost Ruins",
+    "artist": "Echo Visuals",
+    "artist_portfolio": "https://behance.net/echovisuals",
+    "resolution": "1080x2400",
+    "main_link": "https://images.unsplash.com/photo-1605806616949-1e87b487cb2a?q=100",
+    "preview_link": "https://images.unsplash.com/photo-1605806616949-1e87b487cb2a?w=1080&q=80",
+    "thumb_link": "https://images.unsplash.com/photo-1605806616949-1e87b487cb2a?w=600&q=80",
+    "software": ["unreal", "maya"],
+    "tags": ["nature", "ruins", "forest", "fantasy", "environment"],
+    "editors_choice": "n",
+    "type": "phone"
+  },
+  {
+    "id": 3,
+    "name": "Liquid Gold",
+    "artist": "Aura Sim",
+    "artist_portfolio": "https://instagram.com/aurasim_art",
+    "resolution": "3840x3840",
+    "main_link": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=100",
+    "preview_link": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1920&q=80",
+    "thumb_link": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800&q=80",
+    "software": ["houdini", "c4d", "photoshop"],
+    "tags": ["abstract", "fluid", "gold", "simulation", "elegant"],
+    "editors_choice": "y",
+    "type": "both"
+  }
+]

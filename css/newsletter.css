@@ -1,0 +1,93 @@
+/* ================================================================
+   CGWALLS — Newsletter Section
+   ================================================================ */
+
+.newsletter-section {
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 60%, rgba(200,241,53,.06) 100%);
+  border: 1px solid var(--border-hi);
+  border-radius: var(--r-2xl);
+  padding: 56px 48px;
+  margin: 56px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.newsletter-section::before {
+  content: '';
+  position: absolute; top: -60px; right: -60px;
+  width: 240px; height: 240px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(200,241,53,.12), transparent 70%);
+  pointer-events: none;
+}
+
+.newsletter-text { flex: 1; }
+.newsletter-text .nl-eyebrow {
+  font-size: 10px; font-weight: 700; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--accent);
+  font-family: 'Space Mono', monospace; margin-bottom: 12px;
+}
+.newsletter-text h3 {
+  font-size: 28px; font-weight: 800; line-height: 1.2; color: var(--text);
+}
+.newsletter-text p {
+  font-size: 14px; color: var(--text2); margin-top: 10px; line-height: 1.7;
+}
+
+.newsletter-form-wrap { flex: 0 0 380px; }
+
+#newsletterForm {
+  display: flex; flex-direction: column; gap: 10px;
+}
+.nl-input-row { display: flex; gap: 8px; }
+
+#nlEmail {
+  flex: 1;
+  background: var(--surface3); border: 1.5px solid var(--border-hi);
+  border-radius: var(--r-md); padding: 13px 16px;
+  color: var(--text); font-family: 'Syne', sans-serif; font-size: 13px;
+  outline: none;
+  transition: border-color var(--tf) var(--ease), box-shadow var(--tf) var(--ease);
+}
+#nlEmail::placeholder { color: var(--muted); font-family: 'Space Mono', monospace; font-size: 11px; }
+#nlEmail:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-dim); }
+
+.nl-submit-btn {
+  background: var(--accent); border: none; border-radius: var(--r-md);
+  padding: 13px 20px;
+  font-size: 12px; font-weight: 700; font-family: 'Space Mono', monospace;
+  color: #0a0a0d; cursor: pointer; white-space: nowrap;
+  transition: background var(--tf) var(--ease), transform var(--tf) var(--ease), box-shadow var(--tf) var(--ease);
+}
+.nl-submit-btn:hover   { background: #d4f53c; transform: translateY(-1px); box-shadow: var(--accent-glow); }
+.nl-submit-btn:disabled { opacity: .6; pointer-events: none; }
+
+.nl-fine-print {
+  font-size: 11px; color: var(--muted); font-family: 'Space Mono', monospace;
+}
+
+.newsletter-success {
+  display: flex; align-items: center; gap: 12px;
+  font-family: 'Space Mono', monospace; font-size: 13px; color: var(--text2);
+}
+
+/* ── footer ── */
+footer {
+  text-align: center;
+  padding: 28px 40px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: .5px;
+}
+footer a { color: var(--text2); transition: color var(--tf) var(--ease); }
+footer a:hover { color: var(--accent); }
+
+@media (max-width: 900px) {
+  .newsletter-section { flex-direction: column; padding: 40px 28px; }
+  .newsletter-form-wrap { flex: 1 1 auto; width: 100%; }
+  .nl-input-row { flex-direction: column; }
+}

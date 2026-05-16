@@ -1,0 +1,63 @@
+/* ================================================================
+   CGWALLS — Ad Slots (Google AdSense placeholder styling)
+   To activate: replace data-ad-client / data-ad-slot values
+   and uncomment the <script async> AdSense tag in index.html
+   ================================================================ */
+
+.ad-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border: 1.5px dashed var(--border-hi);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  color: var(--muted);
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: .5px;
+  position: relative;
+}
+.ad-slot::before {
+  content: 'AD';
+  position: absolute; top: 8px; left: 12px;
+  font-size: 9px; font-weight: 700; letter-spacing: 2px;
+  color: var(--border-hi);
+}
+
+/* ── leaderboard 728×90 (between carousel & grid) ── */
+.ad-leaderboard {
+  width: 100%; max-width: 728px;
+  height: 90px;
+  margin: 0 auto 0;
+}
+
+/* ── rectangle 336×280 (below grid) ── */
+.ad-rectangle {
+  width: 336px; height: 280px;
+  margin: 0 auto;
+}
+
+/* ── banner 728×90 (footer area) ── */
+.ad-footer {
+  width: 100%; max-width: 728px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+/* ad section wrapper */
+.ad-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 40px;
+}
+.ad-section.between-sections {
+  padding: 0 40px 40px;
+}
+
+@media (max-width: 768px) {
+  .ad-leaderboard, .ad-footer { max-width: 320px; height: 50px; }
+  .ad-rectangle               { width: 300px; height: 250px; }
+  .ad-section                 { padding: 24px 16px; }
+}
