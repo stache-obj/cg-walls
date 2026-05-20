@@ -104,7 +104,7 @@ header {
 }
 .submit-btn:hover {
   transform: translateY(-1px);
-  background: #d4f53c; box-shadow: var(--accent-glow);
+  background: #eeeeee; box-shadow: var(--accent-glow);
 }
 .submit-btn svg { flex-shrink: 0; }
 

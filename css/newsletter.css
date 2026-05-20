@@ -3,7 +3,7 @@
    ================================================================ */
 
 .newsletter-section {
-  background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 60%, rgba(200,241,53,.06) 100%);
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 60%, rgba(170,170,170,.06) 100%);
   border: 1px solid var(--border-hi);
   border-radius: var(--r-2xl);
   padding: 56px 48px;
@@ -19,7 +19,7 @@
   content: '';
   position: absolute; top: -60px; right: -60px;
   width: 240px; height: 240px; border-radius: 50%;
-  background: radial-gradient(circle, rgba(200,241,53,.12), transparent 70%);
+  background: radial-gradient(circle, rgba(170,170,170,.12), transparent 70%);
   pointer-events: none;
 }
 
@@ -61,7 +61,7 @@
   color: #0a0a0d; cursor: pointer; white-space: nowrap;
   transition: background var(--tf) var(--ease), transform var(--tf) var(--ease), box-shadow var(--tf) var(--ease);
 }
-.nl-submit-btn:hover   { background: #d4f53c; transform: translateY(-1px); box-shadow: var(--accent-glow); }
+.nl-submit-btn:hover   { background: #eeeeee; transform: translateY(-1px); box-shadow: var(--accent-glow); }
 .nl-submit-btn:disabled { opacity: .6; pointer-events: none; }
 
 .nl-fine-print {

@@ -8,26 +8,26 @@
 
 :root {
   /* colours */
-  --bg:            #0a0a0d;
-  --surface:       #111116;
-  --surface2:      #18181f;
-  --surface3:      #202029;
-  --border:        #222230;
-  --border-hi:     #303042;
+  --bg:            #000000;
+  --surface:       #080808;
+  --surface2:      #111111;
+  --surface3:      #1a1a1a;
+  --border:        #222222;
+  --border-hi:     #333333;
 
-  --accent:        #c8f135;
-  --accent-dim:    rgba(200,241,53,.13);
-  --accent-glow:   0 0 28px rgba(200,241,53,.32);
+  --accent:        #aaaaaa;
+  --accent-dim:    rgba(170,170,170,.13);
+  --accent-glow:   0 0 28px rgba(170,170,170,.32);
 
-  --cyan:          #35f1c8;
-  --cyan-dim:      rgba(53,241,200,.13);
+  --cyan:          #aaaaaa;
+  --cyan-dim:      rgba(170,170,170,.13);
 
-  --purple:        #a78bfa;
-  --purple-dim:    rgba(167,139,250,.13);
+  --purple:        #aaaaaa;
+  --purple-dim:    rgba(170,170,170,.13);
 
-  --text:          #eeeef2;
-  --text2:         #a8a8b8;
-  --muted:         #606070;
+  --text:          #eeeeee;
+  --text2:         #aaaaaa;
+  --muted:         #666666;
 
   /* shape */
   --r-sm:  8px;

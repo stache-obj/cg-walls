@@ -147,7 +147,7 @@
   transition: background var(--tf) var(--ease), transform var(--tf) var(--ease), box-shadow var(--tf) var(--ease);
 }
 .modal-download-btn:hover {
-  background: #d4f53c; transform: translateY(-1px); box-shadow: var(--accent-glow);
+  background: #eeeeee; transform: translateY(-1px); box-shadow: var(--accent-glow);
 }
 .modal-download-btn svg { width: 16px; height: 16px; }
 

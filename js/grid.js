@@ -9,10 +9,10 @@ const CAT_ICONS = {
 };
 const CAT_LABELS = { phone: 'Mobile', desktop: 'Desktop', both: 'Phone & Desktop' };
 
-let _allWalls   = [];
-let _filter     = 'all';
-let _sort       = 'newest';
-let _query      = '';
+let _allWalls = [];
+let _filter = 'all';
+let _sort = 'newest';
+let _query = '';
 
 function buildGrid(wallpapers) {
   _allWalls = wallpapers;
@@ -66,20 +66,20 @@ function getVisible() {
   }
 
   switch (_sort) {
-    case 'oldest':  walls.sort((a,b) => (a.id||0) - (b.id||0));  break;
-    case 'popular': walls.sort((a,b) => ((b.views||0) - (a.views||0))); break;
-    default:        walls.sort((a,b) => (b.id||0) - (a.id||0));  break;
+    case 'oldest': walls.sort((a, b) => (a.id || 0) - (b.id || 0)); break;
+    case 'popular': walls.sort((a, b) => ((b.views || 0) - (a.views || 0))); break;
+    default: walls.sort((a, b) => (b.id || 0) - (a.id || 0)); break;
   }
   return walls;
 }
 
 function renderGrid() {
-  const grid    = document.getElementById('wallGrid');
-  const label   = document.getElementById('searchResultsLabel');
+  const grid = document.getElementById('wallGrid');
+  const label = document.getElementById('searchResultsLabel');
   const curated = document.getElementById('curatedSection');
   const divider = document.getElementById('mainDivider');
 
-  const walls      = getVisible();
+  const walls = getVisible();
   const isSearching = !!_query;
 
   if (curated) curated.style.display = isSearching ? 'none' : '';

@@ -48,7 +48,7 @@ function buildCarousel(wallpapers) {
 
   function syncDots() {
     const cards = track.querySelectorAll('.carousel-card');
-    const dots  = dotsContainer.querySelectorAll('.dot');
+    const dots = dotsContainer.querySelectorAll('.dot');
     const tLeft = track.getBoundingClientRect().left;
     let minDist = Infinity, closest = 0;
     cards.forEach((c, i) => {
@@ -62,5 +62,5 @@ function buildCarousel(wallpapers) {
   document.getElementById('carouselPrev').addEventListener('click', () =>
     track.scrollBy({ left: -STEP, behavior: 'smooth' }));
   document.getElementById('carouselNext').addEventListener('click', () =>
-    track.scrollBy({ left:  STEP, behavior: 'smooth' }));
+    track.scrollBy({ left: STEP, behavior: 'smooth' }));
 }
