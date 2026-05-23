@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Army",
-    "artist": "Nova Designs",
-    "artist_portfolio": "https://artstation.com/novadesigns",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
     "resolution": "3840x2160",
     "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/army_land.png",
     "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/army_land.png",
@@ -16,8 +16,8 @@
   {
     "id": 2,
     "name": "Creepy Ocean",
-    "artist": "Echo Visuals",
-    "artist_portfolio": "https://behance.net/echovisuals",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
     "resolution": "1080x2400",
     "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/creepyocean_port.png",
     "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/creepyocean_port.png",
@@ -30,8 +30,8 @@
   {
     "id": 3,
     "name": "Deer Water",
-    "artist": "Aura Sim",
-    "artist_portfolio": "https://instagram.com/aurasim_art",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
     "resolution": "3840x3840",
     "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/deer_land.png",
     "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/deer_land.png",
@@ -40,5 +40,92 @@
     "tags": ["abstract", "fluid", "gold", "simulation", "elegant"],
     "editors_choice": "y",
     "type": "desktop"
+  },
+  
+  {
+    "id": 4,
+    "name": "Bathtub",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
+    "resolution": "2160x3840",
+    "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/bathtub_portrait.png",
+    "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/bathtub_portrait.png",
+    "thumb_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/bathtub_portrait.png",
+    "software": ["blender", "photoshop"],
+    "tags": ["summer","bath","duck","film","35mm film","sunset","relax","morning"],
+    "editors_choice": "n",
+    "type": "phone"
+  },
+  
+  
+  {
+    "id": 5,
+    "name": "Beach",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
+    "resolution": "3840x2160",
+    "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/beach%20port.png",
+    "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/beach%20port.png",
+    "thumb_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/beach%20port.png",
+    "software": ["blender", "photoshop"],
+    "tags": ["summer","beach","seagull","film","35mm film","sunset","dusk","dawn"],
+    "editors_choice": "n",
+    "type": "desktop"
+  },
+  {
+    "id": 6,
+    "name": "Beach Bench",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
+    "resolution": "2160x3840",
+    "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/beach_landscape.png",
+    "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/beach_landscape.png",
+    "thumb_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/beach_landscape.png",
+    "software": ["blender", "photoshop"],
+    "tags": ["summer","beach","read","film","35mm film","sunset","dusk","dawn"],
+    "editors_choice": "n",
+    "type": "desktop"
+  },
+  {
+    "id": 7,
+    "name": "Retro Camera",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
+    "resolution": "3840x2160",
+    "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/camera_land.png",
+    "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/camera_land.png",
+    "thumb_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/camera_land.png",
+    "software": ["blender", "photoshop"],
+    "tags": ["retro","camera","old","film","35mm film","vintage","aesthetic","japan"],
+    "editors_choice": "n",
+    "type": "desktop"
+  },
+  {
+    "id": 8,
+    "name": "Basking the Sun",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
+    "resolution": "2160x3840",
+    "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/cat_port.png",
+    "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/cat_port.png",
+    "thumb_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/cat_port.png",
+    "software": ["blender", "photoshop"],
+    "tags": ["cat","summer","bask","pussy","35mm film","evening","aesthetic","sun"],
+    "editors_choice": "n",
+    "type": "phone"
+  },
+  {
+    "id": 9,
+    "name": "I Scream",
+    "artist": "stache",
+    "artist_portfolio": "https://www.youtube.com/@stache_obj",
+    "resolution": "2160x3840",
+    "main_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/ice%20cream.png",
+    "preview_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/ice%20cream.png",
+    "thumb_link": "https://pub-e0f1d7ee468f4c548e2cb75f97b96f8b.r2.dev/ice%20cream.png",
+    "software": ["blender", "photoshop"],
+    "tags": ["ice-cream","ice","cream","summer","35mm film","hot","pink","food"],
+    "editors_choice": "n",
+    "type": "phone"
   }
 ]
